@@ -5,6 +5,31 @@
 	</head>
 	<body>
 		<h1>Register Page</h1>
-
+		<p>
+		<a href="index.html">Go back</a>
+		</p>
+                <form method="post">
+			<strong>First Name:</strong><input type="text" name="firstname">
+			<strong>Last Name:</strong><input type="text" name="lastname"><br><br>
+			<strong>Date of Birth:</strong><input type="date" name="dob">
+			<strong>Gender:</strong><input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+			<input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+			<input type="radio" id="other" name="gender" value="other"><label for="other">Other</label><br><br>
+			<strong>Email:</strong><input type="email" name="email">
+			<strong>Confirm Email:</strong><input type="email" name="confirmemail"><br><br>
+			<strong>Password:</strong><input type="password" minlength="3" name="password" required><br><br>
+			<strong>Hobbies:</strong><br>
+			<input type="checkbox" name="hobbie1" value="hacking">Hacking<br>
+			<input type="checkbox" name="hobbie2" value="programming">Programming<br>
+			<input type="checkbox" name="hobbie3" value="gym">Gym<br><br>
+			<strong>Favorite Color:</strong><br>
+			<select name="favcolor">
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="red">Red</option>
+			</select><br><br>
+			<input type="submit" value="Lets Go!">
+			<input type="reset" value="Oops Restart">	
+		</form> 
 	</body>		
 </html>
