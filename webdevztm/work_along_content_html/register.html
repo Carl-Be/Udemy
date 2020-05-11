@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html>
+  <head> 
+       <title>Register Page</title>
+  </head>
+  <body>
+	  <h1>Register Page</h1>
+	  <p>
+            This page will be our register form page. tags used = form, input, select, option,               and br. The input tag is to take user input it makes a blank text field as deuaflt.              all tags on this page can have diffrent attrubutes added to them to make them                    function diffrently. If you need a certain functionality look at the html documents              there is something that probabaly already has it built for you. The input tag has                a lot of attrubutes to it that can make it act diffently. We will be using the "type"            attubrute of the input tag to make it function diffently for our needs. This includes            the types of radio (for radio buttun), submit (button), reset(button), checkbox                  (button), date, password, email, text. We will also be using the select tag for                  gender selecting. The select tag will have sub option tags that are wrapped inside it            . I saved the best tag for last the one that makes all the magic happen. The form                tag!. Do not for get to check out the attubrute to these tags. If you need a function            they most positively have it already. Here is the form below good job!                         </p><br>
+          <p>
+	    To qurrey our users into the database we have to associate the the input / selection
+	    fields to there respected lables with the name attrubute. For the radio buttons this 
+	    is done with the value tag. 
+	  </p><br>
+	  <form method="post"><!-- You can also use the get method but it is less secure --> 
+	    Please fill out the following:<br><br>
+	    First Name: <input type="text" name="firstname" required><br> 
+	    Last Name: <input type="text" name="lastname" required><br>
+            Email: <input type="email" name="email" required><br>
+            Password: <input type="password" minlength=5 name="psswrd" required><br>   
+	    Brithday: <input type="date" name="bday"><br>
+	    Gender: <br>
+            <input type="radio" id="male" name="gender" value="male">Male<br>
+	    <input type="radio" id="female" name="gender" value="female">Female<br> 
+	    <input type="radio" id="other" name="gender" value="other">Other<br> 
+	    Hobbies:<br>
+	    <input type="checkbox" name="hobbies" value="programming">Programmer<br>
+            <input type="checkbox" name="hobbies" value="hacking">Hacking<br>
+	    Race:<br>
+	    <select name="race">
+	       <option value="white">White</option>
+	       <option value="black">Black</option> 
+	       <option value="asian">Asian</option>
+	    </select><br>
+	    <input type="submit" value="Register!"> 
+	    <input type="reset" value="reset"> 
+          </form>
+  </body>
+  </html> 
+
