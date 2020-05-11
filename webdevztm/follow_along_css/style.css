@@ -1,11 +1,24 @@
-h2{
-	color: blue;
+body {
+  background-image: url(https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+}
+h2,
+p {
+  color: #1f7799;
+  text-align: center;
+  border: 7px solid rgba(92, 186, 222, 0.37);
+  cursor: crosshair;
 }
 
-p{
-	color: pink;
+p {
+  color: pink;
 }
 
-p{
-	color: green;
+p {
+  color: green;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
 }
