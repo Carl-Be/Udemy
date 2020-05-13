@@ -1,0 +1,14 @@
+h1{
+	text-align: center;
+	color: #36B5E0;
+	border: 5px ridge rgba(20,237,191,.50)
+}
+
+body{
+	font-size: 1.3em;
+}
+
+p.descrip{
+	color: #4883C8;
+	text-decoration: underline;
+}
