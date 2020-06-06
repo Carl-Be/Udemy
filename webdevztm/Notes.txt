@@ -1,0 +1,11 @@
+- main list of resources (zerotomastery.io/resources)
+
+- bootstrap the worlds most popular front-end open source toolkit. (getbootstrap.com)
+
+- animate css is like bootstrap but for pre made animated css styles. (animate.style) 
+
+- mailchimp a free landing page (email subscription page generator and manager site) (mailchimp.com)
+
+- creative tim free bootstrap templets (creative-tim.com)
+
+
